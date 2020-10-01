@@ -5,5 +5,5 @@
 # check conf file problems
 ❯ sudo nginx -t
 # last messages of the error log
-❯ ta
+❯ tail /var/log/nginx/error.log
 ```
